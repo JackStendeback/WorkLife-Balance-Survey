@@ -6,46 +6,101 @@
     <title>WorkLife-Balance-Survey</title>
 </head>
 <body>
-    <h1>WorkLife-Balance-Survey</h1>
-    <form>
+    <h1 id="title">WorkLife-Balance-Survey</h1>
+    <p id="description">A survey to help track your work-life balance.</p>
+    <form id="survey-form">
         <fieldset>
             <legend>Contact Information</legend>
             
-            <label>Name</label>
-            <input>
+            <label id="name-label">Name</label>
+            <input id="name" type="text" placeholder="Enter your name">
 
-            <label>Email</label>
-            <input>
+            <label id="email-label">Email</label>
+            <input id="email" required placeholder="Enter your email">
 
-            <label>Age</label>
-            <input>
+            <label id="number-label">Age</label>
+            <input type="number" id="number" min="1" max="102" placeholder="Enter your current age">
 
-            <label>Occupation</label>
-            <input>
+            <label>Industry</label>
+            <select id="dropdown" name="dropdown">
+                <option>(Please select an industry)</option>
+                <option>Technology</option>
+                <option>Healthcare</option>
+                <option>Finance</option>
+                <option>Education</option>
+                <option>Hospitality and Tourism</option>
         </fieldset>
 
         <fieldset>
             <legend>Work-related Questions</legend>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
         </fieldset>
 
         <fieldset>
             <legend>Personal Time Management</legend>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
         </fieldset>
 
         <fieldset>
             <legend>Balancing Responsibilities</legend>
+
+            <label></label>
+            <input>
+            
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
         </fieldset>
 
         <fieldset>
             <legend>Remote Work Experience (if applicable)</legend>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
         </fieldset>
 
         <fieldset>
             <legend>Impact on Health and Well-being</legend>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
         </fieldset>
 
         <fieldset>
             <legend>Suggestions and Feedback</legend>
+
+            <label></label>
+            <input>
+
+            <label></label>
+            <input>
         </fieldset>
     </form>
 </body>
