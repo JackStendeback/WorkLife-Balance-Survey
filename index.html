@@ -14,16 +14,16 @@
             <legend>Contact Information</legend>
             
             <label id="name-label">Name</label>
-            <input id="name" type="text" placeholder="Enter your name">
+            <input id="name" type="text" placeholder="Enter your name"><br><br>
 
             <label id="email-label">Email</label>
-            <input id="email" required placeholder="Enter your email">
+            <input id="email" required placeholder="Enter your email"><br><br>
 
             <label id="number-label">Age</label>
-            <input type="number" id="number" min="1" max="102" placeholder="Enter your current age">
+            <input type="number" id="number" min="1" max="102" placeholder="Enter your current age"><br><br>
 
             <label>Industry</label>
-            <select id="dropdown" name="dropdown">
+            <select id="dropdown" name="dropdown"><br><br>
                 <option>(Please select an industry)</option>
                 <option>Technology</option>
                 <option>Healthcare</option>
@@ -37,7 +37,17 @@
             <legend>Work-related Questions</legend>
 
             <label>On average, how many hours per week do you work?</label>
-            <input>
+            <input type="radio" id="hours1" name="hours" value="1-10" checked>
+            <label for="hours1">0-10 Hours</label>
+
+            <input type="radio" id="hours2" name="hours" value="11-20">
+            <label for="hours2">11-20 Hours</label>
+
+            <input type="radio" id="hours3" name="hours" value="21-30">
+            <label for="hours3">21-30 Hours</label>
+
+            <input type="radio" id="hours4" name="hours" value="31-40">
+            <label for="hours4">31-40 Hours</label><br><br>
 
             <label>Do you have the flexibility to work remotely?</label>
             <input>
