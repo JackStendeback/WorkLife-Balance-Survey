@@ -14,16 +14,16 @@
             <legend>Contact Information</legend>
             
             <label id="name-label">Name</label>
-            <input id="name" type="text" placeholder="Enter your name"><br><br>
+            <input id="name" type="text" placeholder="Enter your name" required><br><br>
 
             <label id="email-label">Email</label>
-            <input id="email" required placeholder="Enter your email"><br><br>
+            <input id="email" required placeholder="Enter your email" required><br><br>
 
             <label id="number-label">Age</label>
-            <input type="number" id="number" min="1" max="102" placeholder="Enter your current age"><br><br>
+            <input type="number" id="number" min="1" max="102" placeholder="Enter your current age" required><br><br>
 
             <label>Industry</label>
-            <select id="dropdown" name="dropdown"><br><br>
+            <select id="dropdown" name="dropdown" required><br><br>
                 <option>(Please select an industry)</option>
                 <option>Technology</option>
                 <option>Healthcare</option>
@@ -80,7 +80,17 @@
             <input>
 
             <label>What is your preferred way to unwind after work?</label>
-            <input>
+            <input type="checkbox" value="naps">
+            <label>Small naps</label>
+            
+            <input type="checkbox" value="exercise">
+            <label>Exercise</label>
+
+            <input type="checkbox" value="media">
+            <label>Media(TV, movies, music)</label>
+
+            <input type="checkbox" value="social-life">
+            <label>Socializing</label>
 
         </fieldset>
 
